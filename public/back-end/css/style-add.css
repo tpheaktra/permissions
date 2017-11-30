@@ -1,0 +1,64 @@
+
+.color-red{color: red;}
+.fileinput{text-align: center;}
+.banner .carousel-inner > .item > a > img, 
+.banner .carousel-inner > .item > img, 
+.banner .img-responsive, 
+.banner .thumbnail a > img, 
+.banner .thumbnail > img{ height: 200px; }
+.chosen-with-drop{ position: relative;}
+label{ font-weight: 500 !important;  }	
+.modal-body .fileinput{
+	text-align: center;
+	width: 100%
+}
+
+/* =============================================
+======================= content wrapper ========
+===============================================*/
+.mywrapper{
+	float: left;
+    width: 100%;
+    margin-bottom: 100px;
+    padding: 20px 0px;
+    border: 1px solid #dadada;
+}
+.table-responsive {
+    display: table;
+}
+
+
+
+
+/*======================================================
+==================== pagination ========================
+=======================================================*/
+
+.pagination>li>a, .pagination>li>span{
+    border: none !important;
+}
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover{
+    color: #337ab7;
+    background-color: inherit;
+    border-color: inherit;
+    font-size: 24px;
+    line-height: 16px;
+    outline: none;
+}
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover{
+    background-color: inherit;
+    border-color: inherit;
+    outline: none;
+}
+.pagination>li>a,
+.pagination>li>span{
+    padding: 4px 6px;
+}
